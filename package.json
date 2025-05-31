@@ -1,0 +1,21 @@
+{
+  "name": "abdurrahman-karakaya-mining",
+  "version": "1.0.0",
+  "description": "Abdurrahman Karakaya Mining Company Website",
+  "main": "index.js",
+  "scripts": {
+    "dev": "http-server -o",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mining",
+    "company",
+    "abdurrahman",
+    "karakaya"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "http-server": "^14.1.1"
+  }
+}
