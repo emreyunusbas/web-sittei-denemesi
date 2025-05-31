@@ -1255,9 +1255,10 @@
 			return !img.isLoaded;
 			});
 	
-			failedImages.forEach(function(failedImage) {
-			console.error('Failed image source:', failedImage.img.src);
-			});
+			// Log failed images but don't throw errors
+			if (failedImages.length > 0) {
+				console.log('Failed to load ' + failedImages.length + ' images. This is normal during development.');
+			}
 		}
 
 
